@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <title>Timeify</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <script src="interactivepage.js"></script>
+</head>
+
+<body>
+    <center>
+        <h1 id="title">Choose a Year!</h1>
+        <input id="yearInput" class="form-control" type="text" placeholder="type a year between 1800-2020">
+        <button onclick="get()" id="getInfo">Get Events Now!</button>
+        <h2 id="info"></h2>
+    </center>
+</body>
+
+</html>
